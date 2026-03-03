@@ -1,5 +1,5 @@
 import CentralTitle from "./CentralTitle";
-
+import FinalQuestion from "./FinalQuestion";
 import Note from "./Note";
 export default function IntegralSolutions() {
   return (
@@ -47,23 +47,8 @@ export default function IntegralSolutions() {
             />
           </div>
         </div>
-      </section>
-      <section className="py-20">
-        <div className="w-[90%] max-w-4xl m-auto text-center bg-yellow-50 border border-yellow-100 p-8 md:p-12 rounded-3xl shadow-sm">
-          <h2 className="font-poppins font-bold text-2xl md:text-3xl text-slate-900 mb-4">
-            ¿Listo para optimizar tus sistemas de lubricación?
-          </h2>
-          <p className="text-slate-600 mb-8 text-lg">
-            Asesórate con expertos en mantenimiento industrial y optimiza tu
-            operación.
-          </p>
-          <a
-            href="contacto.html"
-            className="inline-block bg-yellow-600 text-white font-bold px-8 py-4 rounded-xl hover:bg-yellow-700 transition-colors shadow-lg"
-          >
-            Solicitar Cotización
-          </a>
-        </div>
+
+        <FinalQuestion />
       </section>
     </>
   );

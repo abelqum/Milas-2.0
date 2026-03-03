@@ -1,5 +1,5 @@
 import SvgNote from "./SvgNote";
-import SvgTick from "./SvgTIck";
+import SvgTick from "./SvgTick";
 import LinkNotes from "./LinkNotes";
 export default function Note({
   icon,
@@ -24,18 +24,12 @@ export default function Note({
 
         {items ? (
           <ul className="space-y-3 mb-8">
-            <li className="flex items-start text-slate-600 text-sm">
-              <SvgTick />
-              {items[0]}
-            </li>
-            <li className="flex items-start text-slate-600 text-sm">
-              <SvgTick />
-              {items[1]}
-            </li>
-            <li className="flex items-start text-slate-600 text-sm">
-              <SvgTick />
-              {items[2]}
-            </li>
+            {items.map((el, id) => (
+              <li key={id} className="flex items-start text-slate-600 text-sm">
+                <SvgTick />
+                {el}
+              </li>
+            ))}
           </ul>
         ) : null}
 

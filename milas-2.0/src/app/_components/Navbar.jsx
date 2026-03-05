@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { NAV_LINKS } from "../_constants/navLinks";
 
+import HambMenu from "./HamIcon";
 export default function NavBar() {
   return (
     <nav className="flex items-center md:w-full">
@@ -16,6 +17,7 @@ export default function NavBar() {
           </li>
         ))}
       </ul>
+      <HambMenu />
     </nav>
   );
 }

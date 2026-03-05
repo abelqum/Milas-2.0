@@ -1,6 +1,6 @@
 export default function H1({ children }) {
   return (
-    <h1 className="font-poppins font-semibold text-2xl md:text-3xl text-center text-slate-800">
+    <h1 className="font-poppins font-bold text-3xl md:text-4xl text-center text-slate-900 mt-2 mb-6">
       {children}
     </h1>
   );

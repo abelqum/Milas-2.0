@@ -48,7 +48,12 @@ export default function IntegralSolutions() {
           </div>
         </div>
 
-        <FinalQuestion />
+        <FinalQuestion
+          title="¿Listo para optimizar tus sistemas de lubricación?"
+          des="Asesórate con expertos en mantenimiento industrial y optimiza tu
+          operación."
+          buttonTitle="Solicitar Cotización"
+        />
       </section>
     </>
   );

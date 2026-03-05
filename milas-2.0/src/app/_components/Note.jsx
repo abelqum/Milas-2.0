@@ -1,6 +1,6 @@
 import SvgNote from "./SvgNote";
-import SvgTick from "./SvgTick";
 import LinkNotes from "./LinkNotes";
+import UList from "./UList";
 export default function Note({
   icon,
   title = "Title",
@@ -22,16 +22,7 @@ export default function Note({
         </h3>
         <p className="text-slate-500 mb-6 text-sm leading-relaxed">{desc}</p>
 
-        {items ? (
-          <ul className="space-y-3 mb-8">
-            {items.map((el, id) => (
-              <li key={id} className="flex items-start text-slate-600 text-sm">
-                <SvgTick />
-                {el}
-              </li>
-            ))}
-          </ul>
-        ) : null}
+        {items ? <UList items={items} /> : null}
 
         {link ? (
           <div className="mt-auto">

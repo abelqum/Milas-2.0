@@ -6,7 +6,7 @@ export default function NavResponsive({ menuOpen, setMenu }) {
     <div
       className={`
         absolute top-full left-0 w-full min-h-screen md:hidden z-40
-        transition-all duration-500
+        transition-all duration-500 overflow-hidden
        
         ${menuOpen ? "visible" : "invisible"}
       `}

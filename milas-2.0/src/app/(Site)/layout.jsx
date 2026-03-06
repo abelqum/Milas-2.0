@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="es"
-      className={`${poppins.variable} ${inter.variable} antialiased`}
+      className={`${poppins.variable} ${inter.variable} antialiased scrollbar-thumb-rounded-full scrollbar-track-rounded-full scrollbar scrollbar-thumb-slate-600 scrollbar-track-slate-200`}
     >
       <body className="font-inter">
         <Header />

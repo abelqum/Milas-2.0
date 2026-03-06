@@ -15,7 +15,7 @@ export default function NavBar() {
           <li key={id}>
             <Link
               href={el.url}
-              className="hover:scale-100 hover:text-yellow-600 transition-all duration-200  text-xl"
+              className="hover:scale-100 hover:text-yellow-600 transition-all duration-200"
             >
               {el.link}
             </Link>

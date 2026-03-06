@@ -9,7 +9,7 @@ export default function DistributorLogo() {
           <Image
             src={`/img/logo-${el}.webp`}
             alt={`${el.toUpperCase}`}
-            className="h-16 w-auto md:h-20 object-contain transition-transform hover:scale-110 duration-300"
+            className="h-16 md:h-20 object-contain transition-transform hover:scale-110 duration-300"
             width={100}
             height={70}
           />

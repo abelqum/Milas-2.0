@@ -9,7 +9,7 @@ export default function Logo() {
         alt="logo milas"
         width="80"
         height="80"
-        className="w-auto h-auto"
+        className="w-auto h-20  md:h-23 "
       />
     </Link>
   );

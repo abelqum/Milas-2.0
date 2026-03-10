@@ -1,6 +1,7 @@
 import MainSec from "@/app/_components/MainSec";
 import MainTitle from "@/app/_components/MainTitle";
 import Note from "@/app/_components/Note";
+import FinalQuestion from "@/app/_components/FinalQuestion";
 export default function Servicios() {
   return (
     <MainSec>
@@ -40,6 +41,11 @@ export default function Servicios() {
           />
         </div>
       </section>
+      <FinalQuestion
+        title="¿Tienes un proyecto en puerta?"
+        des="Cuéntanos sobre tu proyecto y recibe una propuesta técnica de acuerdo a tus necesidades."
+        buttonTitle="Solicitar propuesta técnica"
+      />
     </MainSec>
   );
 }

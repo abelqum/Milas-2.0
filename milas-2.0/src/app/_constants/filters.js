@@ -1,39 +1,37 @@
 export const filters = [
-  { title: "Todos", brand: null, cat: null, tipo: null },
+  { title: "Todos", tipo: "all" },
 
-  { title: "Samson", brand: "SAMSON", cat: null, tipo: null },
-  { title: "Piusi", brand: "PIUSI", cat: null, tipo: null },
-  { title: "Wintek", brand: "WINTEK", cat: null, tipo: null },
+  { title: "Samson", brand: "SAMSON" },
+  { title: "Piusi", brand: "PIUSI" },
+  { title: "Wintek", brand: "WINTEK" },
 
   { title: "SEP" },
 
-  { title: "Aceite", brand: null, cat: "Aceite", tipo: null },
-  { title: "Grasa", brand: null, cat: "Grasa", tipo: null },
-  { title: "Aire", brand: null, cat: "Aire", tipo: null },
-  { title: "Urea", brand: null, cat: "Urea", tipo: null },
+  { title: "Aceite", cat: "Aceite" },
+  { title: "Grasa", cat: "Grasa" },
+  { title: "Aire", cat: "Aire" },
+  { title: "Urea", cat: "Urea" },
   {
     title: "Sistemas de Gestión",
-    brand: null,
+
     cat: "Sistemas de Gestión",
-    tipo: null,
   },
 
   { title: "SEP" },
 
-  { title: "Bombas", brand: null, cat: null, tipo: "Bombas" },
-  { title: "Carretes", brand: null, cat: null, tipo: "Carretes" },
-  { title: "Pistolas", brand: null, cat: null, tipo: "Pistolas" },
-  { title: "Kits", brand: null, cat: null, tipo: "Kits" },
-  { title: "Recibidores", brand: null, cat: null, tipo: "Recibidores" },
-  { title: "Extractores", brand: null, cat: null, tipo: "Extractores" },
-  { title: "Medidores", brand: null, cat: null, tipo: "Medidores" },
-  { title: "Accesorios", brand: null, cat: null, tipo: "Accesorios" },
+  { title: "Bombas", tipo: "Bombas" },
+  { title: "Carretes", tipo: "Carretes" },
+  { title: "Pistolas", tipo: "Pistolas" },
+  { title: "Kits", tipo: "Kits" },
+  { title: "Recibidores", tipo: "Recibidores" },
+  { title: "Extractores", tipo: "Extractores" },
+  { title: "Medidores", tipo: "Medidores" },
+  { title: "Accesorios", tipo: "Accesorios" },
   {
     title: "Unidades de Control",
-    brand: null,
-    cat: null,
+
     tipo: "Unidades de Control",
   },
-  { title: "Software", brand: null, cat: null, tipo: "Software" },
-  { title: "Válvulas", brand: null, cat: null, tipo: "Válvulas" },
+  { title: "Software", tipo: "Software" },
+  { title: "Válvulas", tipo: "Válvulas" },
 ];

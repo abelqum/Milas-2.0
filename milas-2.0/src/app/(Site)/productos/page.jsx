@@ -4,7 +4,7 @@ import ProductsContent from "@/app/_components/ProductsContent";
 export default function Productos() {
   return (
     <MainSec>
-      <section className="w-[90%] m-auto mb-10 text-center pt-10">
+      <section className="w-[100%] m-auto mb-10 text-center pt-10">
         <MainTitle
           miniTitle=" Catálogo Industrial"
           Title="Nuestros Equipos"

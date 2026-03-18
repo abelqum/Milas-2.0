@@ -24,7 +24,7 @@ export default function ProductCard({ producto, main = true }) {
           {producto.descripcion}
         </p>
         <LinkNotes
-          href={`contacto.html?producto=${encodeURIComponent(producto.nombre)}`}
+          href={`/contacto?producto=${encodeURIComponent(producto.nombre)}`}
         >
           Cotizar
         </LinkNotes>

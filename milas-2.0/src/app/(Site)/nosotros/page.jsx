@@ -11,15 +11,14 @@ import MainSec from "@/app/_components/MainSec";
 export default function Nosotros() {
   return (
     <MainSec>
-      <section className="bg-white py-16 shadow-sm mb-10">
-        <MainTitle
-          miniTitle="Nuestra Historia"
-          Title="Ingeniería y Servicio Industrial"
-          desc="Somos una empresa mexicana dedicada a elevar los estándares de
+      <MainTitle
+        miniTitle="Nuestra Historia"
+        Title="Ingeniería y Servicio Industrial"
+        desc="Somos una empresa mexicana dedicada a elevar los estándares de
           mantenimiento industrial a través de equipamiento de alta calidad e
           instalaciones profesionales para sistemas de lubricación."
-        />
-      </section>
+      />
+
       <section className="w-[90%] m-auto py-16 bg-white rounded-3xl shadow-lg border border-slate-100">
         <div className="flex flex-col lg:flex-row items-center gap-12 px-6 md:px-12">
           <div className="w-full lg:w-1/2">

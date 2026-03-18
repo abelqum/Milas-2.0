@@ -41,13 +41,13 @@ if (contenedorProductos) {
                         </span>
                         <img src="${producto.imagen}" alt="${producto.nombre}" class="h-full w-full object-contain group-hover:scale-110 transition-transform duration-500" loading="lazy" onerror="this.src='./src/assets/img/logo-milas-sin-fondo.webp'; this.classList.add('opacity-20');">
                     </div>
-                    <div class="p-6 flex flex-col flex-grow">
+                    <div class="p-6 flex flex-col grow">
                         <div class="flex gap-2 mb-1">
                             <span class="text-xs text-yellow-600 font-bold uppercase tracking-wider">${producto.categoria}</span>
                             <span class="text-xs text-slate-400 font-medium uppercase tracking-wider">• ${producto.tipo}</span>
                         </div>
                         <h3 class="font-poppins font-bold text-xl text-slate-800 mb-3 leading-tight">${producto.nombre}</h3>
-                        <p class="text-slate-500 text-sm mb-6 flex-grow leading-relaxed">${producto.descripcion}</p>
+                        <p class="text-slate-500 text-sm mb-6 sgrow leading-relaxed">${producto.descripcion}</p>
                         <a href="contacto.html?producto=${encodeURIComponent(producto.nombre)}" class="mt-auto block w-full py-3 text-center bg-white border-2 border-slate-200 text-slate-700 font-bold rounded-lg hover:border-yellow-500 hover:text-yellow-600 transition-all duration-300">Cotizar Equipo</a>
                     </div>
                 </article>

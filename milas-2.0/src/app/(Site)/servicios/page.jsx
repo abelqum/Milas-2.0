@@ -5,13 +5,12 @@ import FinalQuestion from "@/app/_components/FinalQuestion";
 export default function Servicios() {
   return (
     <MainSec>
-      <section className="bg-white py-16 shadow-sm mb-10">
-        <MainTitle
-          miniTitle="Especialistas en Sistemas de Lubricación Industrial"
-          Title="Instalación y Equipamiento"
-          desc="Garantizamos el funcionamiento óptimo de tus operaciones mediante instalaciones profesionales y equipos de alto rendimiento para sistemas de lubricación."
-        />
-      </section>
+      <MainTitle
+        miniTitle="Especialistas en Sistemas de Lubricación Industrial"
+        Title="Instalación y Equipamiento"
+        desc="Garantizamos el funcionamiento óptimo de tus operaciones mediante instalaciones profesionales y equipos de alto rendimiento para sistemas de lubricación."
+      />
+
       <section className="w-[90%] m-auto pb-16">
         <div className="grid md:grid-cols-2 gap-10">
           <Note

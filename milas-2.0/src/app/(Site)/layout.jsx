@@ -20,11 +20,14 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "MILAS",
+  title: "MILAS | Equipos Industriales y Sistemas de Lubricación",
   description:
     "MILAS: Instalamos sistemas de lubricación completos y ofrecemos equipamiento para talleres de tractocamiones. Mejora tu taller hoy.",
-};
 
+  authors: [{ name: "Abel Mauricio Quiroz Mora" }],
+  creator: "Abel Mauricio Quiroz Mora",
+  publisher: "MILAS Equipos Industriales",
+};
 export default function RootLayout({ children }) {
   return (
     <html

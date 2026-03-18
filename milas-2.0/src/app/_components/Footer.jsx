@@ -1,7 +1,7 @@
 import CopyRight from "./CopyRight";
 import LogoFooter from "./LogoFooter";
 import NavFooter from "./NavFooter";
-
+import MadeWithNext from "./MadeWithNext";
 export default function Footer() {
   return (
     <footer className="bg-slate-900 text-slate-400 py-10 border-t border-slate-800 mt-auto">
@@ -11,6 +11,7 @@ export default function Footer() {
       </div>
 
       <CopyRight />
+      <MadeWithNext />
     </footer>
   );
 }
